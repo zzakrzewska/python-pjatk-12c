@@ -3,21 +3,24 @@
 # zad 1
 print("----------zadanie 1----------")
 for i in range(1, 21):
-    print(i)
+    print(i, end = " ")
+print()
 
 # zad 2
 print("----------zadanie 2----------")
 for i in range(5, 45):
     if (i % 5 == 0):
-        print(i)
+        print(i, end = " ")
+print()
 
 # zad 3
 print("----------zadanie 3----------")
 i = 100
 
 while i >= 50:
-    print(i)
+    print(i, end = " ")
     i -= 1
+print()
 
 # zad 4
 print("----------zadanie 4----------")
@@ -28,7 +31,8 @@ print("podaj y:")
 y = int(input())
 
 for i in range(x, y+1):
-    print(i)
+    print(i, end = " ")
+print()
 
 #zad 5
 print("----------zadanie 5----------")
