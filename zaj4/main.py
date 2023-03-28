@@ -38,11 +38,10 @@ print()
 print("----------zadanie 5----------")
 print("podaj liczbe calkowita dodatnia")
 liczba = int(input())
-poprawne = False
 
-while poprawne == False:
+while True:
     if liczba > 0:
-        poprawne = True
+        break
     else:
         print("podano niepoprawna liczbe")
         print("podaj liczbe calkowita dodatnia")
